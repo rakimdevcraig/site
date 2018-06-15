@@ -1,0 +1,137 @@
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+nav{
+  width: 100%;
+
+}
+
+.main{
+  width: 100%;
+  background-color: rgb(65, 244, 202)
+}
+
+.about{
+  width: 100%;
+
+}
+
+.skills{
+  width: 100%;
+  background-color: rgb(65, 244, 202)
+}
+
+.projects{
+  width: 100%;
+}
+
+.text{
+  width: 100%;
+  float: left;
+}
+
+.examples{
+  width: 28%;
+  margin-left: 4%;
+  float: left;
+  text-align: center;
+}
+
+.currently{
+  width: 100%;
+  clear: both;
+  background-color: rgb(65, 244, 202)
+}
+
+/******************************************
+/* Additional Styles
+/*******************************************/
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+  font-family: cursive;
+}
+
+p{
+  font-size: 1.5rem;
+  font-family: cursive;
+}
+
+.jobtitle{
+  text-align: center;
+}
+.navList ul li{
+  display: inline-block;
+}
+
+.navList ul{
+  margin-top: 0px;
+}
+nav p{
+  margin-top: 0px;
+}
+
+.topnav{
+  width: 100%;
+  float: left;
+}
+.navName{
+  width: 100%;
+}
+
+.job{
+  float: left;
+  width: 100%;
+}
+
+.picofme{
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.goal{
+  text-align: center;
+}
+
+.skills ul li{
+  font-size: 1.5rem;
+  font-family: cursive;
+}
+
+.skills ul{
+  margin-bottom: 0px;
+}
+
+.text h1{
+  margin: 0;
+}
+
+.currently ul li{
+  display: inline-block;
+}
+
+.faIcons li i{
+  color: black;
+  font-size: 30px;
+}
+
+.faIcons{
+  margin-bottom: 0px;
+}
+
+/******************************************************
+tablet media query
+******************************************************/
+
+@media (min-width: 0px) and (max-width:736px){
+  .examples{
+    width: 100%;
+  }
+}
